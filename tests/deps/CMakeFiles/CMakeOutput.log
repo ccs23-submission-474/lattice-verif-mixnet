@@ -1,0 +1,310 @@
+The system is: Linux - 5.18.15-arch1-1 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/root/lattice-verifiable-mixnet/deps/CMakeFiles/3.24.2/CompilerIdCXX/a.out"
+
+Checking whether the ASM-ATT compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+GNU assembler (GNU Binutils) 2.39.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or later.
+This program has absolutely no warranty.
+This assembler was configured for a target of `x86_64-pc-linux-gnu'.
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d8b80/fast && /usr/bin/make  -f CMakeFiles/cmTC_d8b80.dir/build.make CMakeFiles/cmTC_d8b80.dir/build
+make[1]: Entering directory '/root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d8b80.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_d8b80.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++,d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d8b80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d8b80.dir/'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d8b80.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc27abOE.s
+GNU C++17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-pc-linux-gnu
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed
+ /usr/include
+End of search list.
+GNU C++17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 402ce889a414e2a3abbbe3146fa0a6cb
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d8b80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d8b80.dir/'
+ as -v --64 -o CMakeFiles/cmTC_d8b80.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc27abOE.s
+GNU assembler version 2.39.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.39.0
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d8b80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d8b80.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_d8b80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8b80.dir/link.txt --verbose=1
+/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_d8b80.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d8b80 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /build/gcc/src/gcc/configure --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++,d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d8b80' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d8b80.'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cca1nVaV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d8b80 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. CMakeFiles/cmTC_d8b80.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d8b80' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d8b80.'
+make[1]: Leaving directory '/root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-pc-linux-gnu]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0] ==> [/usr/include/c++/12.2.0]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-pc-linux-gnu] ==> [/usr/include/c++/12.2.0/x86_64-pc-linux-gnu]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward] ==> [/usr/include/c++/12.2.0/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/12.2.0;/usr/include/c++/12.2.0/x86_64-pc-linux-gnu;/usr/include/c++/12.2.0/backward;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_d8b80/fast && /usr/bin/make  -f CMakeFiles/cmTC_d8b80.dir/build.make CMakeFiles/cmTC_d8b80.dir/build]
+  ignore line: [make[1]: Entering directory '/root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d8b80.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_d8b80.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=c c++ ada fortran go lto objc obj-c++ d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d8b80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d8b80.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d8b80.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc27abOE.s]
+  ignore line: [GNU C++17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-pc-linux-gnu]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 12.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 402ce889a414e2a3abbbe3146fa0a6cb]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d8b80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d8b80.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_d8b80.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc27abOE.s]
+  ignore line: [GNU assembler version 2.39.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.39.0]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d8b80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d8b80.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_d8b80]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8b80.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_d8b80.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d8b80 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=c c++ ada fortran go lto objc obj-c++ d --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d8b80' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d8b80.']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cca1nVaV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d8b80 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../.. CMakeFiles/cmTC_d8b80.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cca1nVaV.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d8b80] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crti.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..]
+    arg [CMakeFiles/cmTC_d8b80.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/crtendS.o;/usr/lib/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0;/usr/lib;/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test NFLLIB_USE_AVX succeeded with the following output:
+Change Dir: /root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c66ff/fast && /usr/bin/make  -f CMakeFiles/cmTC_c66ff.dir/build.make CMakeFiles/cmTC_c66ff.dir/build
+make[1]: Entering directory '/root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c66ff.dir/src.cxx.o
+/usr/bin/c++ -DNFLLIB_USE_AVX  -march=native  -o CMakeFiles/cmTC_c66ff.dir/src.cxx.o -c /root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c66ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c66ff.dir/link.txt --verbose=1
+/usr/bin/c++  -march=native  -rdynamic CMakeFiles/cmTC_c66ff.dir/src.cxx.o -o cmTC_c66ff 
+make[1]: Leaving directory '/root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+int main() { return 0;}
+Performing C++ SOURCE FILE Test NFLLIB_USE_SSE succeeded with the following output:
+Change Dir: /root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dfb90/fast && /usr/bin/make  -f CMakeFiles/cmTC_dfb90.dir/build.make CMakeFiles/cmTC_dfb90.dir/build
+make[1]: Entering directory '/root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dfb90.dir/src.cxx.o
+/usr/bin/c++ -DNFLLIB_USE_SSE  -march=native  -o CMakeFiles/cmTC_dfb90.dir/src.cxx.o -c /root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_dfb90
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfb90.dir/link.txt --verbose=1
+/usr/bin/c++  -march=native  -rdynamic CMakeFiles/cmTC_dfb90.dir/src.cxx.o -o cmTC_dfb90 
+make[1]: Leaving directory '/root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pmmintrin.h>
+int main() { return 0;}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e29e4/fast && /usr/bin/make  -f CMakeFiles/cmTC_e29e4.dir/build.make CMakeFiles/cmTC_e29e4.dir/build
+make[1]: Entering directory '/root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e29e4.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX11  -march=native    -std=c++11 -o CMakeFiles/cmTC_e29e4.dir/src.cxx.o -c /root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e29e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e29e4.dir/link.txt --verbose=1
+/usr/bin/c++  -march=native  -rdynamic CMakeFiles/cmTC_e29e4.dir/src.cxx.o -o cmTC_e29e4 
+make[1]: Leaving directory '/root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS-MARCH=NATIVE succeeded with the following output:
+Change Dir: /root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_033d8/fast && /usr/bin/make  -f CMakeFiles/cmTC_033d8.dir/build.make CMakeFiles/cmTC_033d8.dir/build
+make[1]: Entering directory '/root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_033d8.dir/src.cxx.o
+/usr/bin/c++   -march=native -std=c++11    -DCOMPILER_SUPPORTS-MARCH=NATIVE -march=native -o CMakeFiles/cmTC_033d8.dir/src.cxx.o -c /root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_033d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_033d8.dir/link.txt --verbose=1
+/usr/bin/c++  -march=native -std=c++11  -rdynamic CMakeFiles/cmTC_033d8.dir/src.cxx.o -o cmTC_033d8 
+make[1]: Leaving directory '/root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS-MTUNE=NATIVE succeeded with the following output:
+Change Dir: /root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_85958/fast && /usr/bin/make  -f CMakeFiles/cmTC_85958.dir/build.make CMakeFiles/cmTC_85958.dir/build
+make[1]: Entering directory '/root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_85958.dir/src.cxx.o
+/usr/bin/c++   -march=native -std=c++11    -DCOMPILER_SUPPORTS-MTUNE=NATIVE -mtune=native -o CMakeFiles/cmTC_85958.dir/src.cxx.o -c /root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_85958
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85958.dir/link.txt --verbose=1
+/usr/bin/c++  -march=native -std=c++11  -rdynamic CMakeFiles/cmTC_85958.dir/src.cxx.o -o cmTC_85958 
+make[1]: Leaving directory '/root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS-FUNROLL-LOOPS succeeded with the following output:
+Change Dir: /root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a77aa/fast && /usr/bin/make  -f CMakeFiles/cmTC_a77aa.dir/build.make CMakeFiles/cmTC_a77aa.dir/build
+make[1]: Entering directory '/root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a77aa.dir/src.cxx.o
+/usr/bin/c++   -march=native -std=c++11    -DCOMPILER_SUPPORTS-FUNROLL-LOOPS -funroll-loops -o CMakeFiles/cmTC_a77aa.dir/src.cxx.o -c /root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_a77aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a77aa.dir/link.txt --verbose=1
+/usr/bin/c++  -march=native -std=c++11  -rdynamic CMakeFiles/cmTC_a77aa.dir/src.cxx.o -o cmTC_a77aa 
+make[1]: Leaving directory '/root/lattice-verifiable-mixnet/deps/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

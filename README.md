@@ -1,6 +1,6 @@
-# Verifiable Mix-Nets and Distributed Decryption for Voting from Lattice-Based Assumptions
-
-Code accompannying the paper #474 submitted to CCS'23.
+# Lattice-based verifiable mix-net
+ 
+Code accompannying the paper "Verifiable Mix-Nets and Distributed Decryption for Voting from Lattice-Based Assumptions".
 
 Depedencies are the [NFLlib](https://github.com/quarkslab/NFLlib) and [FLINT](https://flintlib.org/doc/) 2.8 libraries.
 A modified version of NFLLib is already included in this repository, but instructions for installing its dependencies can be found in the link above.

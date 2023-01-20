@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnfllib_static.a CMakeFiles/nfllib_static.dir/lib/params/params.cpp.o CMakeFiles/nfllib_static.dir/lib/prng/fastrandombytes.cpp.o CMakeFiles/nfllib_static.dir/lib/prng/randombytes.cpp.o
+/usr/bin/ranlib libnfllib_static.a
