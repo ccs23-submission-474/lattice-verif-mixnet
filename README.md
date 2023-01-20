@@ -21,6 +21,6 @@ $ make test
 
 For building the actual code, run `make` inside the source directory. This will build the binaries for `bdlop` (commitment); `bgv` (encryption); `pibnd`, `pismall` and `shuffle` for proofs for N = 1000, as described in the paper.
 
-The binaries respectively implement the commitment scheme, the distributed BGV/GHL cryptosystems, and the zero-knowledge proofs. Tests and benchmarks are included for each of them, such that they can be used independently. NFLlib is quite memory-hungry due to being a template library, so we recommend to adjust the stack size with `ulimit -s unlimited` to avoid crashing in the largest benchmarks.
+The binaries respectively implement the commitment scheme, the distributed BGV cryptosystems, and the zero-knowledge proofs. Tests and benchmarks are included for each of them, such that they can be used independently. NFLlib is quite memory-hungry due to being a template library, so we recommend to adjust the stack size with `ulimit -s unlimited` to avoid crashing in the largest benchmarks.
 
 __WARNING__: This is an academic proof of concept, and in particular has not received code review. This implementation is NOT ready for any type of production use.
